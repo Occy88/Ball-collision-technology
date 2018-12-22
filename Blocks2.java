@@ -1152,9 +1152,7 @@ public class Blocks2 extends Application
 		}
 	}
 
-	// there is nothing in this world weirder than fucking pricks
-	// hello world
-	// wtf is going on/
+	
 
 	public static void main(String[] args)
 	{
