@@ -64,8 +64,8 @@ public class Blocks2 extends Application
 	private ObservableList<Thing>	balls		= FXCollections.observableArrayList();
 	private ObservableList<Area>	areas		= FXCollections.observableArrayList();
 	private static final int		NUM_BALLS	= 20;
-	private static final double		MIN_RADIUS	= 2;
-	private static final double		MAX_RADIUS	= 2;
+	private static final double		MIN_RADIUS	= 10;
+	private static final double		MAX_RADIUS	= 20;
 	private static final double		MIN_SPEED	= 20;
 	private static final double		MAX_SPEED	= 20;
 	private final FrameStats		frameStats	= new FrameStats();

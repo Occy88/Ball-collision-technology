@@ -48,10 +48,10 @@ public class Life extends Application
 {
 
 	private ObservableList<Thing>	balls		= FXCollections.observableArrayList();
-	private static final int		NUM_BALLS	= 100000;
-	private static final double		MIN_RADIUS	= 3;
-	private static final double		MAX_RADIUS	= 3;
-	private static final double		MIN_SPEED	= 20;
+	private static final int		NUM_BALLS	= 1000;
+	private static final double		MIN_RADIUS	= 10;
+	private static final double		MAX_RADIUS	= 4;
+	private static final double		MIN_SPEED	= 6;
 	private static final double		MAX_SPEED	= 100;
  
 	private final FrameStats		frameStats	= new FrameStats();
@@ -259,7 +259,6 @@ public class Life extends Application
 
 			// for (ListIterator<Thing> fastIt = balls.listIterator(slowIt.nextIndex());
 			// fastIt.hasNext();)
-			// {
 			// Thing b2 = fastIt.next();
 			// // performance hack: both colliding(...) and bounce(...) need deltaX and
 			// deltaY,
@@ -282,11 +281,9 @@ public class Life extends Application
 
 					if (grid.a[y][x][z] == null)
 					{	
-						
 						break;
 					} else if (grid.a[y][x][1] == null)
 					{
-
 						break;
 					} else
 					{

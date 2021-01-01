@@ -58,8 +58,8 @@ public class Blocks extends Application
 	private ObservableList<Area>	areas		= FXCollections.observableArrayList();
 	private ObservableList<Poly>	lines		= FXCollections.observableArrayList();
 	private static final int		NUM_BALLS	= 100;
-	private static final double		MIN_RADIUS	= 20;
-	private static final double		MAX_RADIUS	= 30;
+	private static final double		MIN_RADIUS	= 40;
+	private static final double		MAX_RADIUS	= 70;
 	private static final double		MIN_SPEED	= 100;
 	private static final double		MAX_SPEED	= 100;
 
